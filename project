@@ -4,11 +4,22 @@ local ESP = {
 	Boxes = true,
 	BoxShift = CFrame.new(0,-1.5,0),
 	BoxSize = Vector3.new(4,6,0),
-	Color = Color3.fromRGB(109, 0, 83),
+	Color = Color3.fromRGB(255, 0, 127),
+	wait(1)
+	Color = Color3.fromRGB(0, 85, 255),
+	wait(1)
+	Color = Color3.fromRGB(85, 170, 0),
+	wait(1)
+	Color = Color3.fromRGB(255, 170, 0),
+	wait(1)
+	Color = Color3.fromRGB(255, 0, 0),
+	wait(1)
+	Color = Color3.fromRGB(170, 0, 255),
+	wait(1)
 	FaceCamera = false,
 	Names = true,
 	TeamColor = true,
-	Thickness = 2,
+	Thickness = 1,
 	AttachShift = 1,
 	TeamMates = true,
 	Players = true,
