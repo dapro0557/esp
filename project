@@ -4,7 +4,12 @@ local ESP = {
 	Boxes = true,
 	BoxShift = CFrame.new(0,-1.5,0),
 	BoxSize = Vector3.new(4,6,0),
-	Color = Color3.fromRGB(0, 56, 170),
+	Color = Color3.fromRGB(0, 170, 255),
+	wait(0.1)
+	Color = Color3.fromRGB(170, 0, 0),
+	wait(0.1)
+	Color = Color3.fromRGB(255,85,255),
+	wait(0.1)
 	FaceCamera = false,
 	Names = true,
 	TeamColor = true,
